@@ -1,0 +1,1 @@
+int main() { int *ptr = new int; *ptr = 10; // use delete only for heap allocated memory delete ptr; ptr = nullptr; return 0; }
